@@ -1,7 +1,7 @@
 import requests
 response = requests.get('https://random-word-api.herokuapp.com/word')
 word = response.json()[0]
-print(word)
+# print(word)
 
 placeholder = ""
 incorrect_guesses = 0
